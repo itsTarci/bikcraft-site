@@ -1,0 +1,54 @@
+.intro-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* .subtitle {
+  word-break: break-all;
+} */
+
+@media (max-width: 62.5rem) {
+  .responsive-main-content {
+    grid-template-columns: 1fr;
+  }
+  .vantagens-item {
+    justify-items: center;
+  }
+  .pseudo::after {
+    display: none;
+  }
+  .subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 43.75rem) {
+  body {
+    gap: 1.875rem;
+    margin-top: 1.875rem;
+    font-size: 0.9375rem;
+  }
+  .cabecalho {
+    gap: 1.875rem;
+  }
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+  .intro {
+    justify-items: start;
+    text-align: left;
+  }
+  .intro h1 {
+    font-size: 1.5625rem;
+  }
+  .intro p {
+    font-size: 0.9375rem;
+  }
+  .intro::after {
+    display: none;
+  }
+  .subtitle {
+    text-align: left;
+    font-size: 2.1875rem;
+  }
+}
