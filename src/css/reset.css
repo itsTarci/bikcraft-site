@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 19px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.subtitle {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.bik-preta {
+  display: block;
+  max-width: 100%;
+}
