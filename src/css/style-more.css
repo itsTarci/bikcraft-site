@@ -1,6 +1,6 @@
 .nav li a:hover {
   background-color: #c6c6c6;
-  box-shadow: -1px 2px 5px #a19e9e;
+  box-shadow: -0.0625rem 0.125rem 0.3125rem #a19e9e;
   transition: all 0.2s ease-in;
 }
 
@@ -12,10 +12,10 @@
   content: "";
   position: absolute;
   background-color: #e21;
-  width: 60px;
-  height: 3px;
-  top: 40px;
-  right: -30px;
+  width: 3.75rem;
+  height: 0.1875rem;
+  top: 2.5rem;
+  right: -1.875rem;
 }
 
 .intro-button:hover {
@@ -28,7 +28,7 @@
 }
 
 .vantagens-item:hover {
-  border-left: 2px solid #e21;
+  border-left: 0.125rem solid #e21;
 }
 
 .pseudo {
@@ -42,8 +42,8 @@
     rgba(247, 247, 247, 1) 0%,
     rgba(198, 198, 198, 1) 100%
   );
-  width: 320px;
-  height: 2px;
-  top: 26px;
-  left: 410px;
+  width: 20rem;
+  height: 0.125rem;
+  top: 1.625rem;
+  left: 46.625rem;
 }

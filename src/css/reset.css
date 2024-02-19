@@ -15,15 +15,15 @@ ul li {
 
 p {
   line-height: 1.7;
-  font-size: 19px;
+  font-size: 1.1875rem;
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 2.125rem;
 }
 
 .subtitle {
-  font-size: 64px;
+  font-size: 4rem;
   text-transform: uppercase;
 }
 
