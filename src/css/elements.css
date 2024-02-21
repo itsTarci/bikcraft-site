@@ -5,13 +5,13 @@
 }
 
 .nav li a:active {
-  color: #e21;
+  color: var(--button-color);
 }
 
 .intro::after {
   content: "";
   position: absolute;
-  background-color: #e21;
+  background-color: var(--button-color);
   width: 3.75rem;
   height: 0.1875rem;
   top: 2.5rem;
@@ -24,11 +24,11 @@
 }
 
 .vantagens-item:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: var(--body-color);
 }
 
 .vantagens-item:hover {
-  border-left: 0.125rem solid #e21;
+  border-left: 0.125rem solid var(--button-color);
 }
 
 .pseudo {
